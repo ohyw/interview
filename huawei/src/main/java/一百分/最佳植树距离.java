@@ -19,12 +19,12 @@ public class 最佳植树距离 {
         }
 
         int tree = input.nextInt();
-        System.out.println(new Problem().solve(holes, tree));
+        System.out.println(new PlantTree().plant(holes, tree));
     }
 }
 
-class Problem {
-    public int solve(int[] hole, int tree) {
+class PlantTree {
+    public int plant(int[] hole, int tree) {
         int min = 1;
         int max = (hole[hole.length - 1] - hole[0]) / (tree -1);
         int ans = 1;
