@@ -1,7 +1,5 @@
 package 一百分;
 
-import sun.font.FontRunIterator;
-
 import java.util.Scanner;
 
 /**
