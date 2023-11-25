@@ -2,6 +2,12 @@ package 一百分;
 
 import java.util.Scanner;
 
+/**
+ * 思路：
+ * 遍历二维数组，当前位置：
+ * 为1：需要开启监视器
+ * 为0：查看上下左右4个位置，至少有一个为1表示需要开启监视器，全部为0则不需要开启监视器
+ */
 public class 停车场需要打开多少监视器 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
