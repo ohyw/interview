@@ -36,7 +36,7 @@ public class 模拟消息队列 {
                     if ("-1".equals(con.message)) {
                         con.message = map.get(t);
                     } else {
-                        con.message = con.message + " " + map.get(t);
+                        con.message += " " + map.get(t);
                     }
                     break;
                 }
