@@ -29,7 +29,7 @@ public class 字符串摘要 {
                 if (line.charAt(j) != current) break;
                 count++;
             }
-
+            //连续字符串循环时跳过
             if (count >= 2) {
                 i += count - 1;
             } else {
